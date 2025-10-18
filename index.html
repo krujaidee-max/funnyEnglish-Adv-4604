@@ -647,18 +647,18 @@ body.in-game #bgLayer {
 <!-- ===== Welcome ===== -->
 <div id="welcome" role="dialog" aria-modal="true">
   <div class="brand"><img src="image/banner2.png" alt="โรงงานนักประดิษฐ์"></div>
-  <button id="enterBtn">เข้าสู่เกม</button>
+  <button id="enterBtn">Enter</button>
 </div>
 
 <!-- ===== Landing ===== -->
 <div id="landing" role="dialog" aria-modal="true" class="hide">
   <div class="brand"><img src="image/banner2.png" alt="โรงงานนักประดิษฐ์"></div>
   <div class="level-menu">
-    <button class="levelBtn" data-level="5">กริยาช่อง 1 (V1)</button>
-    <button class="levelBtn" data-level="6">กริยาช่อง 2 (V2)</button>
+    <button class="levelBtn" data-level="5">กริยาช่อง 1 (V.1)</button>
+    <button class="levelBtn" data-level="6">กริยาช่อง 2 (V.2)</button>
     <button class="levelBtn" data-level="7">กริยาช่วย (Modal verb)</button>
 
-    <button class="levelBtn" id="guideBtn">กติกาการเล่น 📖</button>
+    <button class="levelBtn" id="guideBtn">How to play 📖</button>
   </div>
 </div>
 
@@ -667,7 +667,7 @@ body.in-game #bgLayer {
 <!-- ===== Start / Countdown ===== -->
 <div id="startScreen">
   <div id="startTitle">ภารกิจ : เลือกคำตอบให้ตรงกับโจทย์</div>
-  <button id="startBtn">เริ่ม</button>
+  <button id="startBtn">Start</button>
   <div id="countdown">3</div>
 </div>
 
@@ -684,7 +684,7 @@ body.in-game #bgLayer {
   <div class="left">
     <div class="stack">
       <div style="display:flex; gap:8px;">
-        <button id="quickRestart" class="btn-mini">หน้าหลัก</button>
+        <button id="quickRestart" class="btn-mini">menu</button>
         <button id="pauseBtn" class="btn-mini">⏸ หยุด</button>
         <button id="camBtn" class="btn-mini">📷: ปิด</button>
       </div>
@@ -711,8 +711,8 @@ body.in-game #bgLayer {
       </div>
     </div>
     <div class="result-actions">
-      <button class="btn strong" id="restartBtn">เริ่มใหม่</button>
-      <button class="btn ghost" id="selectLevelBtn">กลับสู่หน้าหลัก</button>
+      <button class="btn strong" id="restartBtn">Restart</button>
+      <button class="btn ghost" id="selectLevelBtn">Menu</button>
     </div>
   </div>
 </div>
@@ -2563,3 +2563,4 @@ document.addEventListener('visibilitychange', ()=>{ if(document.hidden && stream
 <div id="emojiBurst" aria-hidden="true"></div>
 </body>
 </html>
+
